@@ -25,7 +25,7 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="deepl-translate",
-    version=find_version("deepl", "__init__.py"),
+    version=find_version("deepl_translate", "__init__.py"),
     desription="Python package to translate text using deepl.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -33,8 +33,8 @@ setup(
     author="Peter Stein",
     license="MIT",
     python_requires='>3.6',
-    packages=["deepl"],
+    packages=["deepl_translate"],
     install_requires=["requests"],
-    entry_points={"console_scripts": ["deepl=deepl.__main__:main"]},
+    entry_points={"console_scripts": ["deepl=deepl_translate.__main__:main"]},
     classifiers=["License :: OSI Approved :: MIT License"],
 )

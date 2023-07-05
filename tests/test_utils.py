@@ -1,4 +1,4 @@
-from deepl.utils import abbreviate_language, read_file_lines
+from deepl_translate.utils import abbreviate_language, read_file_lines
 
 
 def test_abbreviate_language():

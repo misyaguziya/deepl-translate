@@ -1,4 +1,4 @@
-from deepl.api import split_into_sentences
+from deepl_translate.api import split_into_sentences
 
 
 def test_split_into_sentences():
