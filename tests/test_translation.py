@@ -1,7 +1,7 @@
 import pytest
 from essential_generators import DocumentGenerator
 
-from deepl.api import translate
+from deepl_translate.api import translate
 
 
 def test_translate_russian():

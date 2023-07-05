@@ -1,4 +1,4 @@
-from deepl.generators import generate_jobs
+from deepl_translate.generators import generate_jobs
 
 
 def test_generate_jobs_with_one_sentences():
