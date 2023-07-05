@@ -1,4 +1,4 @@
-from deepl.hacks import calculate_valid_timestamp, generate_id
+from deepl_translate.hacks import calculate_valid_timestamp, generate_id
 
 
 def test_calculate_valid_timestamp():
