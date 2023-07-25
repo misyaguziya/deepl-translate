@@ -49,7 +49,7 @@ def main():
         kwargs["formality_tone"] = "informal"
 
     try:
-        print(deepl.translate(source_language, target_language, text, **kwargs))
+        print(deepl_translate.translate(source_language, target_language, text, **kwargs))
     except AssertionError as e:
         print(f"Error: {e}")
 
