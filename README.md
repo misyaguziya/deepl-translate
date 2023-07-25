@@ -46,6 +46,11 @@ Currently the following languages are supported:
 | SL           | Slovenian  | Slovenščina             |
 | ES           | Spanish    | Español                 |
 | SV           | Swedish    | Svenska                 |
+| ID           | Indonesian | Indonesia               |
+| UK           | Ukrainian  | Україна                 |
+| TR           | Turkish    | Türkiye                 |
+| NB           | Norwegian  | Norge                   |
+| KO           | Korean     | 한국                    |
 
 You can either input the abbreviation or the language written in english. 
 
